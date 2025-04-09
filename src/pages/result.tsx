@@ -15,9 +15,9 @@ const Result = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-8">
       {!bodyFat && (
-        <Card className="max-w-[52rem] border border-yellow-600 p-2 bg-yellow-200">
+        <Card className="min-w-[52rem] border border-yellow-600 p-2 bg-yellow-200 text-sm">
           <CardBody>
-            <h1 className="text-lg font-bold text-yellow-700">Note:</h1>
+            <h1 className="font-bold text-yellow-700 text-medium ">Note:</h1>
             <p className="text-yellow-700">
               You left the body fat percentage field blank. A more accurate
               formula is used to estimate your TDEE when you know it.
