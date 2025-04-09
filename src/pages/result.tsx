@@ -19,6 +19,7 @@ const Result = () => {
   const weight = queryParams.get("weight");
   const height = queryParams.get("height");
   const activity = queryParams.get("activity");
+
   //   const bodyFat = queryParams.get("bodyFat");
 
   return (
@@ -64,12 +65,12 @@ const Result = () => {
               </Card>
             </div>
             <div className="ml-8">
-              <p>
+              <p className="text-sm">
                 Based on the given information, the best estimate for your
-                maintenance calories is 2,436 calories per day based on the
-                Mifflin-St Jeor Formula, which is widely known to be the most
-                accurate. The table below shows the difference if you were to
-                have selected a different activity level.
+                maintenance calories is <strong>2,436</strong> calories per day
+                based on the Mifflin-St Jeor Formula, which is widely known to
+                be the most accurate. The table below shows the difference if
+                you were to have selected a different activity level.
               </p>
               <Table
                 aria-label="Example static collection table"

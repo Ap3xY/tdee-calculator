@@ -31,7 +31,7 @@ const Calculator = () => {
         <h1 className="mb-4 text-2xl font-bold text-slate-800">
           Learn How Many Calories You Burn Every Day
         </h1>
-        <p className="text-sm">
+        <p className="text-sm text-center">
           Use the TDEE calculator to learn your Total Daily Energy Expenditure,
           a measure of how many calories you burn per day. This calorie
           calculator will also display your BMI, BMR, Macros & many other useful
