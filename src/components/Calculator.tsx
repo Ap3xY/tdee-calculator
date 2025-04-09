@@ -98,12 +98,12 @@ const Calculator = () => {
               ))}
             </Select>
 
-            <Input
+            {/* <Input
               label="Body Fat % (optional)"
               name="bodyFat"
               placeholder="15%"
               type="text"
-            />
+            /> */}
 
             <Button
               className="self-center mt-2 mb-2"
