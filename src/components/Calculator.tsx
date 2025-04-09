@@ -12,11 +12,9 @@ import {
   Button,
   Form,
 } from "@heroui/react";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Calculator = () => {
-  const [action, setAction] = useState<null | string>(null);
   const navigate = useNavigate();
 
   const activity = [
@@ -58,7 +56,6 @@ const Calculator = () => {
                 )
               ).toString();
 
-              setAction(`submit ${JSON.stringify(data)}`);
               navigate(`/result?${queryParams}`);
             }}
           >
